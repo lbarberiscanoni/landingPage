@@ -1,0 +1,41 @@
+doctype html
+html
+	head
+		meta(charset="utf-8")
+		meta(http-equiv="X-UA-Compatible", content="IE=edge")
+
+		// Latest compiled and minified CSS
+		link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css')
+
+		// Optional theme
+		link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css')
+		link(rel="stylesheet", href="stylesheets/sharingButtons.css")
+
+		// Latest compiled and minified JavaScript
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js")
+		script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js')
+		script(src="scripts/sharing.js")
+	body
+		.container
+			h1 Welcome to Alpha-Sci
+			form 
+				.form-group
+					label(for="exampleInputEmail1") Email address
+					input#exampleInputEmail1(type="email" class="form-control" placeholder="Enter email")
+				button(type="submit").btn.btn-default Sign Up	
+				section
+					.button
+						a(href="http://www.facebook.com/sharer/sharer.php?u=#", target="_blank").share-button.share.facebook Share On Facebook
+					.cover
+						.innie
+						.spine
+						.outie
+					.shadow
+				section
+					.button
+						a(href="http://www.twitter.com/intent/tweet?url=#&text=Simple%20social%20media%20share%20buttons", target="_blank").share-button.share.twitter Share On Twitter 
+					.cover
+						.innie
+						.spine
+						.outie
+					.shadow
