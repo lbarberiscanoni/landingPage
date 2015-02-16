@@ -19,6 +19,8 @@ html
 	body
 		.container
 			h1 Welcome to Alpha-Sci
+			video(autoplay loop poster="assets/trading.mp4")
+				source(src="assets/trading.mp4", type="video/mp4")
 			form 
 				.form-group
 					label(for="exampleInputEmail1") Email address
@@ -28,7 +30,7 @@ html
 				.button
 					a(href="http://www.facebook.com/sharer/sharer.php?u=#", target="_blank").share-button.share.facebook Share On Facebook
 				.cover
-					img(src="images/facebook.png")
+					img(src="assets/facebook.png")
 				.shadow
 			section.Twitter
 				.button
@@ -40,7 +42,7 @@ html
 				.shadow
 			.contact-holder
 				contact-image-holder
-					img(src="images/lorenzo.png" alt="Lorenzo's pic").img-circle.img-responsive
+					img(src="assets/lorenzo.png" alt="Lorenzo's pic").img-circle.img-responsive
 				hr 
 				.content
 					b Lorenzo
@@ -51,7 +53,7 @@ html
 					p Lorenzo Barberis Canonico
 			.contact-holder
 				contact-image-holder
-					img(src="images/lorenzo.png" alt="Dan's pic").img-circle.img-responsive
+					img(src="assets/lorenzo.png" alt="Dan's pic").img-circle.img-responsive
 				hr 
 				.content
 					b Dan
