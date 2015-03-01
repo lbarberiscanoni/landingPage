@@ -6,3 +6,15 @@ nav a.btn {
 	width: 150px;
 	height: 40px;
 }
+
+#video {
+	position: absolute;
+    	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: -2;
+
+	video {
+		width: 100%;
+	}
+}
