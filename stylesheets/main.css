@@ -1,10 +1,21 @@
-nav a.btn {
-  background-color: #5cb85c;
+body {
+  background-image: linear-gradient(-90deg, #6314FF, #3B8BBA); }
+
+#top {
   color: white;
-  text-shadow: -0.6px 0 black, 0 0.6px black, 0.6px 0 black, 0 -0.6px black;
-  font-size: 1.2em;
-  width: 150px;
-  height: 40px; }
+  margin-bottom: 50%; }
+  #top nav {
+    background-color: teal;
+    opacity: .5; }
+    #top nav a.btn {
+      background-color: #5cb85c;
+      color: white;
+      text-shadow: -0.6px 0 black, 0 0.6px black, 0.6px 0 black, 0 -0.6px black;
+      font-size: 1.2em;
+      width: 150px;
+      height: 40px; }
+    #top nav section.btn, #top nav a.btn {
+      margin: 2px 4%; }
 
 #video {
   position: absolute;

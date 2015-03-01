@@ -20,18 +20,18 @@ html
 		script(src="scripts/sharing.js")
 	body
 		.container
-			.row
+			.row#top
 				nav.navbar.navbar-fixed-top
 					a.btn(href="#purpose") Purpose
 					a.btn(href="#team") Team
 					a.btn(href="#contact") Contact
-					section.Facebook
+					section.Facebook.btn
 						.button
 							a(href="http://www.facebook.com/sharer/sharer.php?u=#", target="_blank").share-button.share.facebook Share On Facebook
 						.cover
 							img(src="assets/facebook.png")
 						.shadow
-					section.Twitter
+					section.Twitter.btn
 						.button
 							a(href="http://www.twitter.com/intent/tweet?url=#&text=Simple%20social%20media%20share%20buttons", target="_blank").share-button.share.twitter Share On Twitter 
 						.cover
