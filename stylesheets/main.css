@@ -134,25 +134,13 @@ section.Facebook:hover, section.Twitter:hover {
     opacity: 1;
     transform: rotateX(45deg) scale(0.95); }
 
-body {
-  background-image: linear-gradient(-90deg, #6314FF, #3B8BBA);
-  color: white; }
-
 #top {
   color: white;
   margin-bottom: 50%; }
-  #top nav {
-    background-color: teal;
-    opacity: .5; }
-    #top nav a.btn {
-      background-color: #5cb85c;
-      color: white;
-      text-shadow: -0.6px 0 black, 0 0.6px black, 0.6px 0 black, 0 -0.6px black;
-      font-size: 1.2em;
-      width: 150px;
-      height: 40px; }
-    #top nav section.btn, #top nav a.btn {
-      margin: 2px 4%; }
+  #top nav.mobile a.btn {
+    background-image: linear-gradient(-90deg, #6314FF, #3B8BBA); }
+  #top nav.full section.btn, #top nav.full a.btn {
+    display: none; }
 
 #video {
   position: absolute;
@@ -162,5 +150,21 @@ body {
   z-index: -2; }
   #video video {
     width: 100%; }
+
+@media screen and (min-width: 500px) {
+  nav.full {
+    display: block;
+    background-color: teal;
+    opacity: .5; }
+    nav.full a.btn {
+      background-color: #5cb85c;
+      color: white;
+      text-shadow: -0.6px 0 black, 0 0.6px black, 0.6px 0 black, 0 -0.6px black;
+      font-size: 1.2em;
+      width: 150px;
+      height: 40px; }
+    nav.full section.btn, nav.full a.btn {
+      display: block;
+      margin: 2px 4%; } }
 
 /*# sourceMappingURL=main.css.map */

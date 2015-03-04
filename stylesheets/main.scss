@@ -1,30 +1,20 @@
 @import "contactCard";
 @import "sharingButtons";
 
-body {
-	background-image: linear-gradient(-90deg, #6314FF, #3B8BBA);
-	color: white;
-}
-
 #top {
 	color: white;
 	margin-bottom: 50%;
 
-	nav {
-		background-color: teal;
-		opacity: .5;
-	
+	nav.mobile {
 		a.btn {
-			background-color: #5cb85c;
-			color: white;
-			text-shadow: -0.6px 0 black, 0 0.6px black, 0.6px 0 black, 0 -0.6px black;
-			font-size: 1.2em;
-			width: 150px;
-			height: 40px;
+			background-image: linear-gradient(-90deg, #6314FF, #3B8BBA);
 		}
+	}
+
+	nav.full {
 
 		section.btn, a.btn {
-			margin: 2px 4%;
+			display: none;
 		}
 	}
 }
@@ -38,5 +28,28 @@ body {
 
 	video {
 		width: 100%;
+	}
+}
+
+@media screen and (min-width: 500px) {
+
+	nav.full {
+		display: block;
+		background-color: teal;
+		opacity: .5;
+	
+		a.btn {
+			background-color: #5cb85c;
+			color: white;
+			text-shadow: -0.6px 0 black, 0 0.6px black, 0.6px 0 black, 0 -0.6px black;
+			font-size: 1.2em;
+			width: 150px;
+			height: 40px;
+		}
+
+		section.btn, a.btn {
+			display: block;
+			margin: 2px 4%;
+		}
 	}
 }
