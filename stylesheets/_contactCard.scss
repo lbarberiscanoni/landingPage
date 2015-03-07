@@ -1,5 +1,4 @@
 .contact-holder {
-	text-align: center;
 	color: black;
 	margin: 120px auto 0 auto;
 	width: 78%;
@@ -11,8 +10,6 @@
 	.contact-image-holder {
 		margin-top: -100px; 
 		position: relative;
-		left: 50%;
-		margin-left: -77px;
 		padding: 6px;
 		width: 154px;
 		height: 154px;
@@ -23,6 +20,7 @@
 		img {
 			border-radius: 50%;
 			width: 140px;
+			color: white;
 			border: 5px solid #FDFDFD;
 			box-shadow: 0px 3px 16px rgba(0, 0, 0, 0.4);
 		}
@@ -36,6 +34,7 @@
 		line-height: 15px;
 		text-transform: uppercase;
 		font-weight: bold;
+		text-align: center;
 
 		p {
 
