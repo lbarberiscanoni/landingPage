@@ -6,15 +6,17 @@
 	margin-bottom: 50%;
 
 	nav.mobile {
+
 		a.btn {
 			background-image: linear-gradient(-90deg, #6314FF, #3B8BBA);
+			color: white;
+			display: none;
 		}
 	}
 
 	nav.full {
 
 		section.btn, a.btn {
-			display: none;
 		}
 	}
 }
@@ -33,8 +35,11 @@
 
 @media screen and (min-width: 500px) {
 
+	nav.mobile {
+		display: none;
+	}
+
 	nav.full {
-		display: block;
 		background-color: teal;
 		opacity: .5;
 	
@@ -48,7 +53,6 @@
 		}
 
 		section.btn, a.btn {
-			display: block;
 			margin: 2px 4%;
 		}
 	}

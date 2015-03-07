@@ -138,8 +138,8 @@ section.Facebook:hover, section.Twitter:hover {
   color: white;
   margin-bottom: 50%; }
   #top nav.mobile a.btn {
-    background-image: linear-gradient(-90deg, #6314FF, #3B8BBA); }
-  #top nav.full section.btn, #top nav.full a.btn {
+    background-image: linear-gradient(-90deg, #6314FF, #3B8BBA);
+    color: white;
     display: none; }
 
 #video {
@@ -152,8 +152,10 @@ section.Facebook:hover, section.Twitter:hover {
     width: 100%; }
 
 @media screen and (min-width: 500px) {
+  nav.mobile {
+    display: none; }
+
   nav.full {
-    display: block;
     background-color: teal;
     opacity: .5; }
     nav.full a.btn {
@@ -164,7 +166,6 @@ section.Facebook:hover, section.Twitter:hover {
       width: 150px;
       height: 40px; }
     nav.full section.btn, nav.full a.btn {
-      display: block;
       margin: 2px 4%; } }
 
 /*# sourceMappingURL=main.css.map */
