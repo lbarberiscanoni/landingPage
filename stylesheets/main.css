@@ -134,6 +134,9 @@ section.Facebook:hover, section.Twitter:hover {
     opacity: 1;
     transform: rotateX(45deg) scale(0.95); }
 
+h1 {
+  margin-top: 5%; }
+
 #top {
   color: white;
   margin-bottom: 50%; }
