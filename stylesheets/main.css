@@ -139,8 +139,7 @@ section.Facebook:hover, section.Twitter:hover {
   margin-bottom: 50%; }
   #top nav.mobile a.btn {
     background-image: linear-gradient(-90deg, #6314FF, #3B8BBA);
-    color: white;
-    display: none; }
+    color: white; }
 
 #video {
   position: absolute;

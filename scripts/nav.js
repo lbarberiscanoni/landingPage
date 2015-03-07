@@ -1,19 +1,19 @@
 $(window).ready(function(){
 	if ($(window).width() <= 500) {	
-		$("nav.full section").hide();
+		$("nav.full").hide();
 	}
 
 	if ($(window).width() >= 500) {
-		$("nav.full section").show();
+		$("nav.full").show();
 	}
 }); 
 
 $(window).resize(function(){
 	if ($(window).width() <= 500) {	
-		$("nav.full section").hide();
+		$("nav.full").hide();
 	}
 
 	if ($(window).width() >= 500) {
-		$("nav.full section").show();
+		$("nav.full").show();
 	}
 }); 
