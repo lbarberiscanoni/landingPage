@@ -231,6 +231,8 @@ h1 {
   #top nav.mobile a.btn {
     background-image: linear-gradient(-90deg, #6314FF, #3B8BBA);
     color: white; }
+  #top nav.full {
+    display: none; }
 
 #video {
   position: absolute;
@@ -256,6 +258,21 @@ h1 {
       width: 150px;
       height: 40px; }
     nav.full section.btn, nav.full a.btn {
-      margin: 2px 4%; } }
+      margin: 2px 4%; }
+    nav.full a.btn:hover {
+      background-color: teal;
+      border: 3px solid #5cb85c;
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      -ms-border-radius: 15px;
+      border-radius: 15px;
+      transition: background-color 400ms;
+      transition: border-radius 200ms; }
+
+  #top h1 {
+    font-size: 4em;
+    margin: 15% 0 2% 0; }
+  #top h3 {
+    font-size: 2.6em; } }
 
 /*# sourceMappingURL=main.css.map */
