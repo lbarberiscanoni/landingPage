@@ -1,3 +1,3 @@
 $("button.menu").click(function(){
-	$("nav.navbar.mobile").toggle();
+	$("nav.navbar.mobile a").toggle();
 });
