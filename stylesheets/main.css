@@ -45,8 +45,7 @@
     min-width: 427px; } }
 @media screen and (min-width: 980px) {
   .contact-holder {
-    margin: 80px 2.5% 0 2.5%;
-    float: left; } }
+    margin: 80px 2.5% 0 2.5%; } }
 section.Twitter, section.Facebook {
   transition-duration: .6s;
   transition-timing-function: ease;
