@@ -8,7 +8,7 @@ $(window).ready(function(){
 		$("#video img").hide();
 		$("#video source").show();
 	}
-}
+});
 
 $(window).resize(function(){
 	if ($(window).width() <= 500) {
@@ -20,4 +20,4 @@ $(window).resize(function(){
 		$("#video img").hide();
 		$("#video source").show();
 	}
-}
+});
