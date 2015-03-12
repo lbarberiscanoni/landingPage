@@ -160,17 +160,23 @@ h1 {
   #top nav.mobile a.btn {
     background-image: linear-gradient(-90deg, #6314FF, #3B8BBA);
     color: white; }
-  #top nav.full {
-    display: none; }
 
-#video {
+#video, .fallback {
   position: absolute;
   top: 0px;
   left: 0px;
   width: 100%;
   z-index: -2; }
-  #video video {
+  #video video, .fallback video {
     width: 100%; }
+
+.fallback {
+  height: 635px;
+  background: url("../assets/wildExchange.png") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
 .row#purpose {
   /* IE10 Consumer Preview */
@@ -300,9 +306,6 @@ h1 {
       text-shadow: 1.5px 1.5px 1.5px black; }
 
 @media screen and (min-width: 500px) {
-  nav.mobile {
-    display: none; }
-
   nav.full {
     background-color: teal;
     opacity: .7; }

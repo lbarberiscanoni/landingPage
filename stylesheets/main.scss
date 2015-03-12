@@ -52,10 +52,6 @@ h1 {
 			color: white;
 		}
 	}
-
-	nav.full {
-		display: none;
-	}
 }
 
 #video {
@@ -68,6 +64,16 @@ h1 {
 	video {
 		width: 100%;
 	}
+}
+
+.fallback {
+	@extend #video;
+	height: 635px;
+	background: url("../assets/wildExchange.png") no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 .row#purpose {
@@ -206,10 +212,6 @@ h1 {
 }
 
 @media screen and (min-width: 500px) {
-
-	nav.mobile {
-		display: none;
-	}
 
 	nav.full {
 		background-color: teal;
