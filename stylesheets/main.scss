@@ -38,16 +38,17 @@ h1 {
 	-moz-box-shadow: -7px -7px 7px #888;
 	-webkit-box-shadow: -7px -7px 7px #888;
 	box-shadow: -7px -7px 7px #888;
-	background: url("../assets/FinancialEng.png");
+	background: url("../assets/financeSpreadsheet.png");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	text-shadow: 4px 2px 2px black; 
 
 	p.col-md-8 {
 	 	margin: 0 15%;
 		line-height: 1.8;
-		text-shadow: 4px 2px 2px rgba(150, 150, 150, 1);
+		font-weight: 400;
 	}
 }	
 
@@ -71,7 +72,8 @@ h1 {
 
 .row#contact {
 	margin: 80px 0;
-	background: url("../assets/financeDesk.png");
+	background: url("../assets/FinancialEng.png");
+	color: white;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -85,12 +87,34 @@ h1 {
 	box-shadow: -7px -7px 7px #888;
 
 	.col-md-8 {
+		text-shadow: 4px 2px 2px black; 
 		border: 3px solid black;
 		@include border-radius(10px);
 		margin: 15px 15%;
-      		-moz-box-shadow: 0 0 10px #888;
-            	-webkit-box-shadow: 0 0 10px #888;
-	        box-shadow: 0 0 10px #888;
+      		-moz-box-shadow: 0 0 50px #888;
+            	-webkit-box-shadow: 0 0 50px #888;
+	        box-shadow: 0 0 50px #888;
+
+		h4 {
+			a {
+				color: white;
+				text-shadow: 2px 3px 2px blue;
+				transition: font-size 0.15s ease;
+			}
+
+			a:hover {
+				font-size: 1.15em;
+			}
+		}
+
+		ul, h5 {
+			line-height: 1.8;
+			text-shadow: 1px 1px 1px black; 
+		}
+
+		p {
+			text-shadow: 1.5px 1.5px 1.5px black;
+		}
 	}
 }
 
