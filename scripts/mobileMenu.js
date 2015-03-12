@@ -1,3 +1,3 @@
 $("button.menu").click(function(){
-	$("nav.navbar.mobile a").toggle();
+	$("nav.navbar.mobile").toggle(400);
 });
